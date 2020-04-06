@@ -15,6 +15,7 @@
 		87F658CC2437B66E0006E42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F658CA2437B66E0006E42A /* LaunchScreen.storyboard */; };
 		87F658D72437B66F0006E42A /* DarkModeTest_Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F658D62437B66F0006E42A /* DarkModeTest_Day2Tests.swift */; };
 		87F658E22437B66F0006E42A /* DarkModeTest_Day2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F658E12437B66F0006E42A /* DarkModeTest_Day2UITests.swift */; };
+		87F658F1243A7D140006E42A /* Condiment-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F658F0243A7D140006E42A /* Condiment-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		87F658DD2437B66F0006E42A /* DarkModeTest-Day2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarkModeTest-Day2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F658E12437B66F0006E42A /* DarkModeTest_Day2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeTest_Day2UITests.swift; sourceTree = "<group>"; };
 		87F658E32437B66F0006E42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F658F0243A7D140006E42A /* Condiment-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Condiment-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		87F658BE2437B6630006E42A /* DarkModeTest-Day2 */ = {
 			isa = PBXGroup;
 			children = (
+				87F658EF243A7C160006E42A /* Fonts */,
 				87F658BF2437B6630006E42A /* AppDelegate.swift */,
 				87F658C12437B6630006E42A /* SceneDelegate.swift */,
 				87F658C32437B6630006E42A /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				87F658E32437B66F0006E42A /* Info.plist */,
 			);
 			path = "DarkModeTest-Day2UITests";
+			sourceTree = "<group>";
+		};
+		87F658EF243A7C160006E42A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87F658F0243A7D140006E42A /* Condiment-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F658CC2437B66E0006E42A /* LaunchScreen.storyboard in Resources */,
+				87F658F1243A7D140006E42A /* Condiment-Regular.ttf in Resources */,
 				87F658C92437B66D0006E42A /* Preview Assets.xcassets in Resources */,
 				87F658C62437B66D0006E42A /* Assets.xcassets in Resources */,
 			);
